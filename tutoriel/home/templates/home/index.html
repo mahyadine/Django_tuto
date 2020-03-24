@@ -1,12 +1,29 @@
-{% load static %}
-<!DOCTYPE html>
+{% extends 'home/base.html' %}
 
-<html>
-<head>
-    <title><h1>Index</h1></title>
-    <link rel="stylesheet" href= "../static/css/index.css">
-</head>
-<body>
-    <h1>Hello my first page by mahyadine</h1>
-</body>
-</html>
+{% block title %}
+Index
+{% endblock %}
+
+{% block style %}
+Index
+{% endblock %}
+
+{% block body %}
+
+<div class = "container-fluid">
+
+    <div class = "row">
+
+        <div class = "col">
+
+            <h1>Index</h1>
+            <p>Bienvenue sur ce site</p>
+
+        </div>
+    </div>
+
+    
+
+</div>
+
+{% endblock %}
